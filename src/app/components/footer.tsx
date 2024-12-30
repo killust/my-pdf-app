@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-white border-t-2 border-gray-200">
+    <footer className="bg-white border-t-2 border-gray-200 mt-[70px]">
       <div className="container mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
         <div>
           <h4 className="font-bold text-lg">Contact Us</h4>

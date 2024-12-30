@@ -25,7 +25,7 @@ const Header: React.FC = () => {
                     width={35}
                     height={38}
                 />
-                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">TextutorAI</span>
+                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black font-light">TextutorAI</span>
             </Link>
             <button onClick={() => setMenuOpen(!menuOpen)} type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black-500 rounded-lg md:hidden hover:bg-white focus:outline-none  dark:text-white-400 dark:hover:bg-white-700 " aria-controls="navbar-multi-level" aria-expanded={menuOpen}>
                 <span className="sr-only">Open main menu</span>
